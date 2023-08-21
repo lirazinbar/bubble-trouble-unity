@@ -24,7 +24,12 @@
 /[Aa]ssets/Plugins/Editor/JetBrains*
 
 # Visual Studio cache directory
+.vs
 .vs/
+
+# Rider cache directory
+.idea
+.idea/
 
 # Gradle cache directory
 .gradle/
@@ -63,6 +68,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+crashlytics_build_id.xml
 
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
@@ -70,3 +76,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Firebase SDK
+/[Aa]ssets/Firebase/Plugins/x86_64/
